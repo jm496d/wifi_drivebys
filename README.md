@@ -15,7 +15,7 @@ daypart             		string
 wifi_session_start_date  	string
 wifi_session_end_date 		string
 
-2.	Identification of Deterministic Antennas (NOTE: THIS STEP WAS DONE OUTSIDE OF THIS PROGRAM)
+2.	Identification of Deterministic Antennas (NOTE: THIS STEP WAS DONE OUTSIDE OF THIS CODE)
 
 Identify the antennas within 5 miles that do not provide coverage to the venue. These are referred to as the “non-coverage” antennas. The “coverage” antennas are initially identified as being associated with the the 3 nearest towers (using Euclidian distance) to a given venue. 
 
