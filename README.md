@@ -16,8 +16,10 @@ wifi_session_end_date 		string
 
 2.	Identification of Deterministic Antennas
 Identify the antennas within 5 miles that do not provide coverage to the venue. These are referred to as the “non-coverage” antennas. The “coverage” antennas are initially identified as being associated with the towers whose centroid is between 3-5 miles from the venue, excluding the 3 nearest towers to the venue. 
+
 3.	Calculation of Adjusted WiFi Session Duration
 The timestamp of the first cellular locate on a non-coverage antenna should be used as a proxy for the wifi session end time, but only if the cellular locate timestamp is less than the wifi end timestamp. 
+
 4.	Population of WiFi Drivebys Flag
 A “driveby” flag should be created if the session duration (session end time minus session start time) is less than the minimum required duration as defined for that venue type.
 Note: The processes listed in steps 1, 3 and 4 have been run for McDonalds and Walmart for one week in April. 
